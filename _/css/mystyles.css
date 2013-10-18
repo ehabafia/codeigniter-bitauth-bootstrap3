@@ -1,0 +1,164 @@
+body {
+	margin-top: 20px;
+}
+
+#login {
+	background-color: #888;
+}
+
+#loginPage {
+	max-width: 350px;
+	margin: 100px auto 0px;
+	padding: 20px 30px 20px;
+	background-color: #eee;
+	/* height: 2.1em; */
+	/* font: 0.9em arial,helvetica,clean,sans-serif; */
+	font-weight: normal;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 10px 10px 10px 10px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+	-moz-border-radius: 10px 10px 10px 10px; /* FF1-3.6 */
+	border-radius: 10px 10px 10px 10px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+	box-shadow: box-shadow: 0px -3px 20px 0px rgba(0, 0, 0, 0.8);
+}
+
+#loginPage label {
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
+
+label#username, label#email {
+	margin-top:0px;
+}
+
+.center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.alert {
+	padding: 10px;
+}
+
+body {
+		background: #D3D3D3;
+}
+
+.container {
+	background: #fff;
+	-webkit-border-radius: 60px 0 0 0;
+	-moz-border-radius: 60px 0 0 0;
+	border-radius: 60px 0 25px 0;
+}
+
+#branding img {
+	margin: 10px 0 5px 25px;
+	max-height: 80px;
+}
+
+.navbar {
+	border-radius: 0px;
+	margin-bottom: 15px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #FFFFFF;
+	background-color: rgba(84, 118, 162, 0.6);
+}
+
+#content{
+	margin-left: 1px;
+	margin-right: 1px;	
+}
+
+.site-footer {
+	padding: 8px 15px;
+	margin-bottom: 0px;
+	border-top: 2px solid #8F8F8F;
+}
+
+#navigation {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.block {
+	display: block;
+}
+
+ul#navigation li a {
+	display: block;
+	text-decoration: none;
+	line-height: 1.5em;
+}
+
+ul#navigation li a:hover {
+	font-weight: bold;
+	color: #014FA5;
+	border-collapse: collapse;
+}
+
+h3 {
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+.panel {
+	margin-bottom: 10px;
+}
+
+#userGreeting {
+	float: right;
+	margin-right: 10px;
+	margin-top: 60px;
+}
+
+a {
+	color:#000;
+}
+
+.glyphicon {
+	font-size: 1.3em;
+}
+
+a .glyphicon-remove {
+	color: #f00;
+}
+
+.selected, .selected:hover {
+	color: #0a77d5;
+	border-bottom: 1px #0a77d5 dotted;
+}
+
+.selected a, .selected a:hover {
+	color: #3399f3;
+	font-weight: bold;
+}
+
+.label a, .label a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#status .label-success:hover {
+	background-color: #cd0200;
+}
+
+#status .label-danger:hover {
+	background-color: #3cb521;
+}
+
+#dialog {
+	display: none;
+}
