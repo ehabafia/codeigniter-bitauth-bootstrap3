@@ -36,7 +36,7 @@ Also delete the user is through AJAX.**
 
 **There is some modification to CodeIgniter to make it more DRYS.**
 
-**CAUTION: **
+**CAUTION:**
 Using this repo is totally under your responsiblity and you will take it at your own risk.**
 
 Thank you
