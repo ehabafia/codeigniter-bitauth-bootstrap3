@@ -32,11 +32,13 @@ I **highly** recommend you not use the default cookie session... [Try my driver 
 Currently, only MySQL is supported. This may change in the future. Or not. We'll see.
 
 **I also added Bootstrap3 and some AJAX function to Active or Disable the User from Admin.
-Also delete the user is through AJAX.
+Also delete the user is through AJAX.**
 
-There is some modification to CodeIgniter to make it more DRYS.
+**There is some modification to CodeIgniter to make it more DRYS.**
 
-CAUTION: 
+**CAUTION: **
 Using this repo is totally under your responsiblity and you will take it at your own risk.**
 
-Thank you,
+Thank you
+
+##**Ehab Abu Afia**
