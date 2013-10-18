@@ -1,4 +1,4 @@
-#BitAuth
+#CodeIgniter - BitAuth - BootStrap3 - Ajax and more
 
 ##Requirements
 * PHP 5.4.12, 5.4+ recommended
