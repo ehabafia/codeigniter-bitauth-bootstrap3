@@ -1,12 +1,8 @@
 #BitAuth
 
-* [Website](http://www.dmontgomery.net/bitauth) - http://www.dmontgomery.net/bitauth
-* [Github](https://github.com/danmontgomery/codeigniter-bitauth) - https://github.com/danmontgomery/codeigniter-bitauth
-* [Issues](https://github.com/danmontgomery/codeigniter-bitauth/issues) - https://github.com/danmontgomery/codeigniter-bitauth/issues
-
 ##Requirements
-* PHP 5.1.6+, 5.3+ recommended
-* CodeIgniter 2.0+
+* PHP 5.4.12, 5.4+ recommended
+* CodeIgniter 2.1.4+
 * MySQL
 * ~~php-gmp~~
 
@@ -29,14 +25,18 @@
 ##Installation
 Copy the included files to their appropriate locations in the application/ folder. Import bitauth.sql into your database. **If you would like to change the names of the tables BitAuth uses, you can change them in this .sql file, and must also change them in config/bitauth.php**.
 
-##Updating
-If updating from v0.1.x, there is a convert() function in the Example controller. This will modify the structure of your groups table, as well as convert any roles you have stored to the new format. This function uses base_convert(), which means results may vary depending on the machine you're running this on. After upgrading, be sure to check the roles in your groups for accuracy.
-
-##Notes
-As of v0.2.0, php-gmp is no longer used. The structure of the bitauth_groups table has changed, as well.
-
 The default login is **admin**/**admin**.
 
 I **highly** recommend you not use the default cookie session... [Try my driver replacement](http://getsparks.org/packages/session-driver/show) for CI's session library (end of shameless self promotion).
 
 Currently, only MySQL is supported. This may change in the future. Or not. We'll see.
+
+**I also added Bootstrap3 and some AJAX function to Active or Disable the User from Admin.
+Also delete the user is through AJAX.
+
+There is some modification to CodeIgniter to make it more DRYS.
+
+CAUTION: 
+Using this repo is totally under your responsiblity and you will take it at your own risk.**
+
+Thank you,
